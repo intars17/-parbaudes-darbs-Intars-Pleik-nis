@@ -1,0 +1,17 @@
+# ----------------------------------------------------------------------
+# C2. Nauda un griezieni
+# ----------------------------------------------------------------------
+
+# Lietotājam ir 20 eiro, viens grieziens maksā 3 eiro. Izvadi, cik griezienu viņš var atļauties un cik naudas paliek pāri. Visu kodu raksti pats.
+#
+# Šis fails ir tukšs. Visu kodu raksti pats zem šīs rindas.
+# ----------------------------------------------------------------------                                                                                                Katru rezultāta rindu sāc ar zvaigznīti un atstarpi.
+
+c = 20
+g = 3
+griezieni = 0
+while c > g:
+    c = c - 3
+    griezieni = griezieni + 1
+print("griezienu viņš var atļauties:", griezieni)
+print("palika pāri:", c)
